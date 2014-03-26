@@ -313,63 +313,66 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
+    background-image: url("images/uoft.jpg");
+    background-size:cover;
+    color:rgba(0, 0, 0, 0);
+    background-repeat:no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
+    background-image: url("images/prost.jpg");
+    background-size:cover;
+    color:rgba(0, 0, 0, 0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #f2b179; }
+    background-image: url("images/mcds.jpg");
+    background-size:cover;
+    color:rgba(0, 0, 0, 0);
+}
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    background: #f59563; }
+    background-image: url("images/wlu.jpg");
+    background-size:cover;
+    color:rgba(0, 0, 0, 0);
+}
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
-    background: #f67c5f; }
+    background-image: url("images/waiter.jpg");
+    background-size:cover;
+    color:rgba(0, 0, 0, 0);
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
     background: #f65e3b; }
+}
+  .tile.tile-64 .tile-inner {
+    background-image: url("images/mac.jpg");
+    background-size:cover;
+    color:rgba(0, 0, 0, 0);
+}
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    background: #edcf72;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-128 .tile-inner {
-        font-size: 25px; } }
+    background-image: url("images/queens.jpg");
+    background-size:cover;
+    color:rgba(0, 0, 0, 0);
+}
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
-    background: #edcc61;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-256 .tile-inner {
-        font-size: 25px; } }
+    background-image: url("images/western.jpg");
+    background-size:cover;
+    color:rgba(0, 0, 0, 0);
+}
+
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
-    background: #edc850;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 45px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-512 .tile-inner {
-        font-size: 25px; } }
+    background-image: url("images/western.jpg");
+    background-size:cover;
+    color:rgba(0, 0, 0, 0);
+}
+
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
-    background: #edc53f;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 35px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-1024 .tile-inner {
-        font-size: 15px; } }
+    background-image: url("images/mcgill.jpg");
+    background-size:cover;
+    color:rgba(0, 0, 0, 0);
+}
   .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
-    background: #edc22e;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 35px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-2048 .tile-inner {
-        font-size: 15px; } }
+    background-image: url("images/loo.gif");
+    background-size:cover;
+    color:rgba(0, 0, 0, 0);
+}
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
